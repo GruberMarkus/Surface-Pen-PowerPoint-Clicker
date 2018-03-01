@@ -10,6 +10,6 @@
 ; Shortcut to place exe file in startup: Win+R, "shell:startup"
 
 #If WinActive("ahk_class screenClass")
-#F20::send {right}
-#F19::send {left}
+#F20::send {PgDn}
+#F19::send {PgUp}
 #F18::send {b}
